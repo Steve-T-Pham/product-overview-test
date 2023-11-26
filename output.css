@@ -31227,6 +31227,19 @@ video {
   content: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-weight: 300;
+  letter-spacing: 0.015em;
+  line-height: 2;
+  font-size: 1.125rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
