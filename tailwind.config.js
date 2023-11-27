@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      spacing: {
+        '91': '22.5rem',
+      },
       backgroundImage: {
         'radial-gradient': 'radial-gradient(circle, rgba(81,183,221,1) 7%, rgba(0,91,174,1) 100%)',
       },
