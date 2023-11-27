@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="output.css">
+    <script src="https://kit.fontawesome.com/b47b2bce24.js" crossorigin="anonymous"></script>
     <title>Product Overview Test</title>
 </head>
 <body>
     <!-- main-wrapper -->
-    <div class="container flex flex-col mx-auto">
+    <div class="flex flex-col mx-auto">
 
         <!-- product-overview container -->
-        <div class="container flex flex-row w-3/4 mt-10 mx-auto">
+        <div class="container flex flex-row w-custom h-fit my-10 mx-auto">
 
             <!-- product-overview__text & header-->
-            <div class="w-1/2">
+            <div class="w-6/12">
 
                 <h1 class="font-bold text-4xl">PRODUCT OVERVIEW</h1>
 
@@ -42,24 +43,176 @@
             </div>
 
             <!-- product-overview__img -->
-            
-            <div class="w-2/5 ml-auto">
-                <img class="rounded-2xl object-cover h-full w-full" src="https://www.buylabel.ca/cdn/shop/products/3x2-inkjet-1_f34b08cd-8a6f-457f-a447-58f77e12b3d2_1024x1024@2x.jpg?v=1672023229" />
+
+            <div class="w-5/12 ml-auto">
+                <img class="rounded-2xl object-cover h-full w-full" src="https://www.buylabel.ca/cdn/shop/products/3x2-inkjet-1_f34b08cd-8a6f-457f-a447-58f77e12b3d2_1024x1024@2x.jpg?v=1672023229" alt="Apricot Jam inkjet label showcase."/>
             </div>
         </div>
 
-        <!-- full-specifications -->
-        <div class="container bg-blue w-3/4 mt-10 mx-auto">
-            <h1 class="font-bold text-4xl">FULL SPECIFICATIONS</h1>
-            <table>
-                <thead>
-                    <td>
+        <!-- full-specifications background -->
+        <div class="w-full mx-0 my-10 pb-20 pt-5 bg-custom-blue custom-radial-gradient">
 
-                    </td>
-                </thead>
-            </table>
+            <!-- full-specifications container-->
+            <div class="container w-custom my-10 h-fit mx-auto">
+
+                <!-- headers -->
+                <div class="flex flex-row">
+                    <h1 class="font-bold text-4xl text-white my-5">FULL SPECIFICATIONS</h1>
+                    <div class="ml-auto my-auto text-white font-semibold text-lg"> 
+                        <i class="fa-solid fa-print mr-3"></i>PRINT SPECS SHEET
+                    </div>
+                </div>
+
+                <!-- tables container -->
+                <div class="container flex flex-row rounded-md place-content-center bg-white py-10">
+                    <table class="table-fixed w-2/5 mr-10 p-5">
+                        <tbody>
+                            <tr class="border-b border-black">
+                                <td class="font-bold text-left">
+                                    PRINTER TECHNOLOGY
+                                </td>  
+                                <td class="text-right">
+                                    Inkjet
+                                </td>
+                            </tr>
+                            <tr class="border-b border-black">
+                                <td class="font-bold">
+                                    COLOR
+                                </td>
+                                <td class="text-right">
+                                    White
+                                </td>    
+                            </tr>
+                            <tr class="border-b border-black">
+                                <td class="font-bold">
+                                    WIDTH
+                                </td>  
+                                <td class="text-right">
+                                    4"
+                                </td>
+                            </tr>
+                            <tr class=" border-b border-black">
+                                <td class="font-bold">
+                                    LENGTH
+                                </td>  
+                                <td class="text-right">
+                                    2"
+                                </td>
+                            </tr>
+                            <tr class="border-b border-black">
+                                <td class="font-bold">
+                                    PERFORATED
+                                </td>  
+                                <td class="text-right">
+                                    YES
+                                </td>
+                            </tr>
+                            <tr class="border-b border-black">
+                                <td class="font-bold">
+                                    LABELS PER ROLL
+                                </td>  
+                                <td class="text-right">
+                                    1245
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="font-bold">
+                                    ROLLS PER BOX
+                                </td>  
+                                <td class="text-right">
+                                    4
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="table-fixed w-2/5 ml-10 p-5">
+                        <tbody>
+                            <tr class="border-b border-black">
+                                <td class="font-bold">
+                                    LABELS PER BOX
+                                </td>
+                                <td class="text-right">
+                                    4980
+                                </td>
+                            </tr>
+                            <tr class="border-b border-black">
+                                <td class="font-bold">
+                                    OUTER DIAMETER
+                                </td>
+                                <td class="text-right">
+                                    6"
+                                </td>
+                            </tr>
+                            <tr class="border-b border-black">
+                                <td class="font-bold">
+                                    CORE DIAMETER
+                                </td>
+                                <td class="text-right">
+                                    3"
+                                </td>
+                            </tr>
+                            <tr class="border-b border-black">
+                                <td class="font-bold">
+                                    PART NUMBER
+                                </td>
+                                <td class="text-right">
+                                    RIJ4020AP
+                                </td>
+                            </tr>
+                            <tr class="border-b border-black">
+                                <td class="font-bold">
+                                    MATERIAL
+                                </td>
+                                <td class="text-right">
+                                    Paper
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="font-bold">
+                                    FINISH
+                                </td>
+                                <td class="text-right">
+                                    Gloss
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="py-5"></td>
+                                <td class="py-5"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
 
+        <!-- printed label inspiration container -->
+        <div class="container flex flex-col w-custom h-fit my-10 mx-auto relative">
+
+            <!-- headers -->
+            <h1 class="font-bold text-4xl">PRINTED LABEL INSPIRATION</h1>
+            <div class="font-bold mt-3">In need of some inspiration? See how some of our customers are using their inkjet labels!</div>
+
+            <!-- carousel images container -->
+            <div class="container mt-5 items-center flex flex-col">
+                <i class="fa-sharp fa-solid fa-chevron-left fa-2xl absolute top-1/2 left-0 -ml-10"></i>
+                <div class="container flex flex-row items-center space-x-5 my-5">
+
+                    <div class="w-1/3 h-1/3">
+                        <img class="rounded-xl object-cover shadow-xl" src="https://cdn.discordapp.com/attachments/1177394875696689253/1178494808709410886/image.png?ex=657659d1&is=6563e4d1&hm=113219579a1a548caaf4d76040305d0345ac5e596d0a84aa40f9d7ebdc01519a&"/>
+                    </div>
+                    <div class="w-1/3 h-1/3">
+                        <img class="rounded-xl object-cover shadow-xl" src="https://cdn.discordapp.com/attachments/1177394875696689253/1178495143700090970/image.png?ex=65765a21&is=6563e521&hm=5d15e9e1c807e023784f1dd83712ec9f68d9997ec8ef7896690faf424c71df93&"/>
+                    </div>
+                    <div class="w-1/3 h-1/3">
+                        <img class="rounded-xl object-cover shadow-xl" src="https://www.buylabel.ca/cdn/shop/products/4x6_inkjet_c608a10d-8e5a-4b4e-b927-a51801860ead_1024x1024@2x.jpg?v=1672023406" />
+                    </div>
+
+                </div>
+                <i class="fa-sharp fa-solid fa-chevron-right fa-2xl absolute top-1/2 right-0 -mr-10"></i>
+                <button class="bg-accent-blue hover:bg-hover-blue text-white font-semibold py-2 px-16 rounded-full">VIEW ALL</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>

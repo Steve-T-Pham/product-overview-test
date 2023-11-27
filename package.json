@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss-cli@latest build -i ./styles.css -o ./output.css && npx postcss styles.css -o output.css --watch"
+    "start": "npx tailwindcss-cli@latest build -i ./styles.css -o ./output.css && npx postcss styles.css -o output.css --watch",
+    "dev": "npx tailwindcss-cli@latest build -i ./styles.css -o ./output.css --watch"
   },
   "author": "",
   "license": "ISC",
